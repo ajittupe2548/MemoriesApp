@@ -1,10 +1,14 @@
 .heading {
     color: blue;
+    color: #371cc7;
     text-align: center;
     border: 1px solid gray;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 20px;
+    padding: 5px;
 }
 
-.wrapper {
+.contentWrapper {
     display: flex;
 }
 

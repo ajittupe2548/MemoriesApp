@@ -1,0 +1,29 @@
+.memoryFormHeading {
+    text-align: center;
+}
+
+.memoryForm {
+    padding: 10px;
+}
+
+.inputField {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.memoryFormBtn {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    background: #5047a1;
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.resetBtn {
+    background: #ff2d2d;
+}
