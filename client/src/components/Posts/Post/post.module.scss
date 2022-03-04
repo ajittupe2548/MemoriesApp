@@ -1,0 +1,66 @@
+.postCard {
+    position: relative;
+    width: 20vw;
+    margin-bottom: 10px;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.creator {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #fff;
+}
+
+.editBtn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.postImg {
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+
+.infoContainer {
+    padding: 10px;
+}
+
+.tags {
+    font-size: 13px;
+}
+
+.title {
+    font-size: 19px;
+    color: black;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.message {
+    margin: 10px 0 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.btnsContainer {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10px;
+    width: 93%;
+}
+
+.likeBtn, .deleteBtn {
+    cursor: pointer;
+    color: darkblue;
+}

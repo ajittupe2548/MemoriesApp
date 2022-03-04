@@ -1,11 +1,10 @@
 .heading {
-    color: blue;
-    color: #371cc7;
+    color: #0e3a50;
     text-align: center;
-    border: 1px solid gray;
-    border: 1px solid #e2e2e2;
+    margin: 20px 0;
     margin-bottom: 20px;
     padding: 5px;
+    border-radius: 5px;
 }
 
 .contentWrapper {
@@ -14,8 +13,12 @@
 
 .postsWrapper {
     width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .formWrapper {
     width: 30%;
+    padding: 0 10px;
 }
