@@ -15,6 +15,11 @@
     color: #fff;
 }
 
+.createdAt {
+    color: #fff;
+    font-size: 10px;
+}
+
 .editBtn {
     position: absolute;
     top: 10px;
@@ -45,7 +50,7 @@
 }
 
 .message {
-    margin: 10px 0 20px;
+    margin: 10px 0 25px;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
