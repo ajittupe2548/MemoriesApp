@@ -1,8 +1,11 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 
 import styles from './post.module.scss';
+import { deletePost } from '../../../actions/posts';
 
 const Post = ({ post, setCurrentId }) => {
+    const dispatch = useDispatch();
     return (
         <div className={styles.postCard}>
             <div className={styles.creator}>{post.creator}</div>
@@ -22,7 +25,7 @@ const Post = ({ post, setCurrentId }) => {
                     <div className={styles.likeBtn}>
                         Like
                     </div>
-                    <div className={styles.deleteBtn}>
+                    <div className={styles.deleteBtn} onClick={() => {dispatch(deletePost(post._id))}}>
                         Delete
                     </div>
                 </div>
