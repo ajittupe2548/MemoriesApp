@@ -24,8 +24,8 @@ const Post = ({ post, setCurrentId }) => {
                 <div className={styles.message}>
                     {post.message}
                 </div>
-                <div className={styles.btnsContainer} onClick={() => {dispatch(likePost(post._id))}} >
-                    <div className={styles.likeBtn}>
+                <div className={styles.btnsContainer}>
+                    <div className={styles.likeBtn} onClick={() => {dispatch(likePost(post._id))}}>
                         Likes {post.likeCount}
                     </div>
                     <div className={styles.deleteBtn} onClick={() => {dispatch(deletePost(post._id))}}>
