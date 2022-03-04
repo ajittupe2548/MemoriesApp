@@ -2,11 +2,11 @@ import React from 'react';
 
 import styles from './post.module.scss';
 
-const Post = ({ post }) => {
+const Post = ({ post, setCurrentId }) => {
     return (
         <div className={styles.postCard}>
             <div className={styles.creator}>{post.creator}</div>
-            <div className={styles.editBtn}>Edit</div>
+            <div className={styles.editBtn} onClick={() => {setCurrentId(post._id)}}>Edit</div>
             <img className={styles.postImg} src={post.selectedFile} alt="Memory" />
             <div className={styles.infoContainer}>
                 <div className={styles.tags}>#
